@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante El Buen Sabor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Anuncio de Oferta -->
+<div id="offerBanner" class="offer-banner">
+    <p>Platillos criollos a 30% de descuento solo por <span id="countdown"></span></p>
+</div>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1 id="title">🍽️ El Buen Sabor</h1>
+            <nav>
+                <ul>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Sección Principal -->
+<section class="hero">
+    <!-- Contenedor de imagen de carrusel -->
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="images/platillo1.jpg" alt="Plato 1">
+        </div>
+        <button id="prevBtn">&lt;</button>
+        <button id="nextBtn">&gt;</button>
+    </div>
+
+    <!-- Texto del banner -->
+    <div class="text-content">
+        <div class="container">
+            <h2>Bienvenido a Restaurante El Buen Sabor</h2>
+            <p>Disfruta de una experiencia gastronómica única con los mejores platillos de la región.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Menú -->
+<section id="ofertas" class="offers">
+    <div class="container">
+        <h2>Menú</h2>
+        <!-- Aquí se insertará el Menú -->
+        <div id="menuItems" class="menu-items">
+            <!-- Los platillos del menú se agregarán dinámicamente aquí -->
+        </div>
+    </div>
+</section>
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <p>"¡La comida es deliciosa y el ambiente inmejorable!"</p>
+                <span>- Juan Pérez</span>
+            </div>
+            <div class="testimonial">
+                <p>"Excelente lugar para disfrutar con amigos. ¡Volveré!"</p>
+                <span>- Ana García</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer id="contacto">
+        <div class="container">
+            <p>© 2024 Restaurante El Buen Sabor. Todos los derechos reservados.</p>
+            <p>Visítanos: Calle Ficticia 123, Ciudad</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
